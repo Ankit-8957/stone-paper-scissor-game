@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="resp.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <title>game</title>
+</head>
+
+<body>
+    <header>
+        <div id="heading">
+            <h2 class="title">Stone <br>
+                Paper <br>
+                Scissor
+            </h2>
+            <div class="notify hide">Match Draw</div>
+            <div id="score-box">
+                <h3>Score</h3>
+                <div class="score-count">
+                    <div class="score" >
+                        <p id="user">0</p>
+                        <p>you</p>
+                    </div>
+                    <div class="score" >
+                        <p id="comp">0</p>
+                        <p>comp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="center">
+        <div id="option">
+            <img class="img" id="stone" src="https://wrpsa.com/wp-content/uploads/2021/08/rock.png" alt="Stone">
+            <img class="img" id="paper" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaqsdqd0Knv-5BOcvJ_1C3AodoI9eVpq_y7fTiDXzujA&s"
+                alt="Paper">
+            <img class="img" id="scissor"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSUMi2mObNaw51CMelqLeX82aXKUX2BumAiVKaXJmfQ&s"
+                alt="Scissor">
+        </div>
+        <button class="btn">Play Again</button>
+    </section>
+    <script src="game.js"></script>
+</body>
+
+</html>
